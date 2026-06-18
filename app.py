@@ -13,7 +13,7 @@ import streamlit as st
 
 import config
 from views import (
-    
+    benchmark,
     chat,
     compare,
     finetune,
@@ -29,7 +29,7 @@ st.set_page_config(
 PAGES = {
     "Compare": compare.render,
     "Chat": chat.render,
-    
+    "Benchmark": benchmark.render,
     "Fine-tuned": finetune.render,
     "History": history.render,
 }
