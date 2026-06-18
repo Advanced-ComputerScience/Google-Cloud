@@ -15,7 +15,7 @@ import config
 from views import (
     
     chat,
-    
+    compare,
     finetune,
     history,
 )
@@ -27,7 +27,7 @@ st.set_page_config(
 )
 
 PAGES = {
-    
+    "Compare": compare.render,
     "Chat": chat.render,
     
     "Fine-tuned": finetune.render,
