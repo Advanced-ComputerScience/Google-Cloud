@@ -1,0 +1,27 @@
+# Secrets — never commit these
+.env
+*.json
+service-account*.json
+gcp-key*.json
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Generated fine-tuning data (regenerate with finetuning/prepare_dataset.py)
+finetuning/data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
