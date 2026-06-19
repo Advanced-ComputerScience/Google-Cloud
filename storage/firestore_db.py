@@ -1,22 +1,4 @@
-"""Google Cloud Firestore persistence for chat conversations (DoubleChat).
 
-Data model
-----------
-Collection: "conversations"
-  Document: <auto-id>
-    title:      str   — short label (first user message, truncated)
-    model:      str   — e.g. "gemini-3.5-flash"
-    provider:   str   — e.g. "Google Vertex AI"
-    created_at: timestamp
-    updated_at: timestamp
-    messages:   list[ {role, content} ]   — the full transcript
-
-Auth: Application Default Credentials (same as Vertex AI) + GCP_PROJECT.
-
-Every public function returns a `(value, latency_ms)` tuple so the UI can
-display read/write timings — matching the assignment's sample screenshot
-("Load Time for Cloud Firestore", "Search Time for Cloud Firestore").
-"""
 
 import time
 from dataclasses import dataclass, field

@@ -1,9 +1,4 @@
-"""Central configuration for DoubleChat.
 
-Loads the .env file exactly once and exposes typed settings.
-Every other module imports from here instead of calling os.getenv()
-directly — one place to see (and change) all knobs.
-"""
 
 import os
 from pathlib import Path

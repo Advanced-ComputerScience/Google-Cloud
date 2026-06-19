@@ -1,14 +1,3 @@
-"""Step 2 of fine-tuning — upload the training data to Google Cloud Storage.
-
-Vertex AI reads tuning data from a GCS bucket, so we create one (if it
-doesn't exist) and upload train.jsonl + validation.jsonl into it.
-
-Run:
-    python finetuning/upload_to_bucket.py
-
-Prints the gs:// URIs to paste into the Vertex tuning console (Step 2,
-"Tuning dataset").
-"""
 
 import os
 import sys

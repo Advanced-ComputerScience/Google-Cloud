@@ -1,4 +1,3 @@
-"""History page — list past conversations from Firestore, reload or delete them."""
 
 import streamlit as st
 

@@ -1,9 +1,4 @@
-"""Fine-tuning page — Base vs Fine-tuned headline generation.
 
-Sends the same news description to the un-tuned base Gemini and to the
-fine-tuned model, side by side. This is the live proof that fine-tuning
-changed the model's behaviour (the assignment's "customization" dimension).
-"""
 
 import streamlit as st
 

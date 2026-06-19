@@ -1,10 +1,4 @@
-"""Setup checker — verifies both LLM providers and Firestore before running.
 
-Usage (venv active):  python check_setup.py
-
-Run this after setting up a new machine. If everything prints OK,
-`streamlit run app.py` will work.
-"""
 
 import sys
 

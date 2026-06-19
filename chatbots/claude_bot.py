@@ -1,8 +1,4 @@
-"""Anthropic Claude wrapper.
 
-Authentication: API key from .env (ANTHROPIC_API_KEY).
-Model and token budget come from config.py.
-"""
 
 import base64
 import time

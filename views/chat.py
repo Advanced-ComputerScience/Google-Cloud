@@ -1,9 +1,3 @@
-"""Chat page — multi-turn conversation with one model, persisted to Firestore.
-
-Conversation state lives in st.session_state across reruns:
-    chat_messages : list[{role, content}]  — the running transcript
-    conv_id       : str | None             — Firestore document id (None = unsaved)
-"""
 
 import streamlit as st
 

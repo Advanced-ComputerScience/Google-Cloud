@@ -1,19 +1,4 @@
-"""Step 1 of fine-tuning — build the training data.
 
-Downloads the HuffPost News Category Dataset and converts it into the JSONL
-format Vertex AI requires for supervised fine-tuning of Gemini.
-
-Task: news headline generation.
-    input  (user role)  = a news short_description
-    output (model role) = the article's real headline   (this is the target)
-
-Run:
-    python finetuning/prepare_dataset.py
-
-Produces:
-    finetuning/data/train.jsonl        (90% — what the model learns from)
-    finetuning/data/validation.jsonl   (10% — held out, to detect overfitting)
-"""
 
 import json
 import os

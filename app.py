@@ -1,13 +1,4 @@
-"""DoubleChat — Multi-LLM Comparison Lab.
 
-Streamlit entry point. Run with:  streamlit run app.py
-
-SRH Advanced Computer Science — Final Exam Project (Topic K:
-comparison of Google Gemini, Anthropic Claude, and OpenAI ChatGPT).
-
-This file owns page configuration and navigation. Each page's content
-lives in its own module under views/.
-"""
 
 import streamlit as st
 

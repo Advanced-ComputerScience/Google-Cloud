@@ -1,13 +1,4 @@
-"""Google Gemini wrapper — served through Vertex AI on Google Cloud.
 
-Authentication: Application Default Credentials (ADC), not an API key.
-One-time setup per machine:
-
-    gcloud auth application-default login
-    gcloud auth application-default set-quota-project <project-id>
-
-Billing goes to the GCP project (covered by the education credit).
-"""
 
 import time
 from functools import lru_cache

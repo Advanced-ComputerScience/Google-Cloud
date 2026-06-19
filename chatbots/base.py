@@ -1,10 +1,3 @@
-"""Shared response type for all chatbot wrappers.
-
-Both providers (and any added later, e.g. ChatGPT) return this same
-dataclass, so the UI and the future benchmark code never need
-provider-specific handling.
-"""
-
 from dataclasses import dataclass
 from typing import Optional
 

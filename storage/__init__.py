@@ -1,7 +1,4 @@
-"""Storage layer — persistence backends for DoubleChat.
 
-Currently: Google Cloud Firestore for conversation history.
-"""
 
 from storage.firestore_db import (
     Conversation,
