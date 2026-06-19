@@ -4,9 +4,11 @@ import streamlit as st
 
 import config
 from views import (
-    
+    benchmark,
+    capabilities,
     chat,
-    
+    code_gen,
+    compare,
     finetune,
     history,
 )
@@ -18,9 +20,11 @@ st.set_page_config(
 )
 
 PAGES = {
-    
+    "Compare": compare.render,
+    "Capabilities": capabilities.render,
+    "Code Generation": code_gen.render,
     "Chat": chat.render,
-    
+    "Benchmark": benchmark.render,
     "Fine-tuned": finetune.render,
     "History": history.render,
 }
