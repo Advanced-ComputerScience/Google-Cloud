@@ -132,5 +132,5 @@ tokens tied to a Google identity — the more secure enterprise pattern.
 - [x] Phase 3 — Multi-turn chat mode with history persisted to Firestore
 - [x] Capabilities — Gemini image generation + speech-to-text
 - [x] Phase 4 — Benchmark suite + auto-generated comparison table
-- [ ] Phase 5 — Fine-tune Gemini on Vertex AI (customization dimension)
-- [ ] Phase 6 — Deploy to Cloud Run (public demo URL)
+- [x] Phase 5 — Fine-tune Gemini on Vertex AI (customization dimension)
+- [x] Phase 6 — Deploy to Cloud Run (public demo URL)
